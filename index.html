@@ -7,6 +7,8 @@
     <title>Gravity</title>
 </head>
 <link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/owl.carousel.min.css">
+<link rel="stylesheet" href="./css/owl.theme.default.min.css">
 <link rel="stylesheet" href="./css/main.css">
 
 <body>
@@ -90,7 +92,7 @@
     </section>
     <section class="services">
         <div class="container">
-            <div class="row">
+            <div class="row d-flex justify-content-between">
                 <div class="col-md-6">
                     <div class="section-title">
                         <div class="section-title__lable">
@@ -102,12 +104,55 @@
                         </h2>
                     </div>
                 </div>
-                <div class="offset-md-1 col-md-3">
-
+                <div class="col-md-5 d-flex justify-content-between">
+                    <ul class="serv-list serv-list_left">
+                        <li>Multimedia</li>
+                        <li>Interactive design</li>
+                        <li>Packaging</li>
+                        <li>Branding</li>
+                    </ul>
+                    <ul class="serv-list serv-list_right">
+                        <li>Creative Strategy</li>
+                        <li>UI/UX</li>
+                        <li>Coding</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="gallery owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="./img/img4.jpg" alt="work">
+                            <span class="gallery__play"></span>
+                        </div>
+                        <div class="item">
+                            <img src="./img/img4-2.jpg" alt="work">
+                        </div>
+                        <div class="item">
+                            <img src="./img/img4.jpg" alt="work">
+                        </div>
+                        <div class="item">
+                            <img src="./img/img4.jpg" alt="work">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="result">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 be-static">
+                    <div class="collage">
+                        <img src="./img/img7.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
