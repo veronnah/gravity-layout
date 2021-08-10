@@ -797,6 +797,148 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+@media(max-width: 1000px) {
+    .easy h2 {
+        font-size: 33px;
+    }
+
+    .offer__cont-title {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 768px) {
+    .collage {
+        position: relative;
+        width: 100%;
+    }
+
+    .hero {
+        position: static;
+        height: 100%;
+        background-size: 100%;
+        width: 100%;
+    }
+
+    .video {
+        width: 42%;
+        top: 68%;
+    }
+
+    .offer__cont {
+        margin-bottom: 120px;
+    }
+
+    header {
+        height: unset;
+    }
+
+    .problems .about {
+        margin-top: 30px;
+    }
+
+    .serv-list_left {
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 576px) {
+    .clients-row {
+        flex-wrap: wrap;
+    }
+
+    .clients-row a {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .offer__cont-title {
+        font-size: 40px;
+    }
+
+    .offer__cont {
+        margin-bottom: 80px;
+    }
+
+    .problems .about__text {
+        max-width: unset;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .owl-theme .owl-dots,
+    .owl-theme .owl-nav {
+        margin: 8px 0 0 0 !important;
+    }
+
+    .services {
+        padding-top: 94px;
+    }
+
+    .serv-list {
+        margin-top: 40px;
+    }
+
+    .gallery {
+        margin-top: 50px;
+    }
+
+    .gallery.owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background: #c4aace;
+    }
+
+    .gallery.owl-theme .owl-dots .owl-dot span {
+        background: #eae8fb;
+        width: 30px;
+        height: 4px;
+    }
+
+    .gallery__play {
+        width: 54px;
+        height: 54px;
+        background-size: cover;
+        transform: translate(-50%);
+        margin-left: unset;
+    }
+}
+
+@media(max-width: 400px),
+(max-height: 680px) {
+    .hero {
+        background: none;
+    }
+
+    .vh-dependent {
+        height: 100%;
+    }
+
+    .video {
+        height: 300px;
+        width: 100%;
+        position: relative;
+    }
+
+    .nav {
+        margin-bottom: 65px;
+    }
+
+    .problems {
+        padding-top: 86px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;

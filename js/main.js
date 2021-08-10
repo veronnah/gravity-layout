@@ -7,6 +7,21 @@ $(function () {
         nav: true,
         dots: false,
         navText: ['<img src="./img/arrow-left.svg">', '<img src="./img/arrow-right.svg">'],
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items: 1,
+                navText:false,
+                dots: true,
+                autoWidth: false,
+                autoHeight: true,
+            },
+            576:{
+                nav:true,
+                autoWidth: true,
+            },
+            
+        }
     });
 
     $('ul.tabs__caption').on('click', 'li:not(.active)', function () {
