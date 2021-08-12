@@ -26,9 +26,37 @@
                         </button>
                     </div>
                     <div class="col-4 col-md-3 d-flex justify-content-end">
-                        <button class="menu">
+                        <!-- <button class="menu">
                             <img src="./img/burger.svg" alt="menu">
-                        </button>
+                        </button> -->
+                        <nav class="burger__nav">
+                            <input type="checkbox" class="nav__cb" id="menu-cb"/>
+                            <div class="nav__content">
+                              <ul class="nav__items">
+                                <li class="nav__item">
+                                  <span class="nav__item-text">
+                                    Home
+                                  </span>
+                                </li>
+                                <li class="nav__item">
+                                  <span class="nav__item-text">
+                                    Works
+                                  </span>
+                                </li>
+                                <li class="nav__item">
+                                  <span class="nav__item-text">
+                                    About
+                                  </span>
+                                </li>
+                                <li class="nav__item">
+                                  <span class="nav__item-text">
+                                    Contact
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                            <label class="nav__btn" for="menu-cb"></label>
+                          </nav>
                     </div>
                 </div>
             </div>
@@ -63,7 +91,9 @@
         <div class="container">
             <div class="row d-flex justify-content-between">
                 <div class="col-md-5">
-                    <img src="./img/img3.jpg" alt="Poster" class="poster img-responsive">
+                    <a href="./img/img3.jpg" data-fancybox>
+                        <img src="./img/img3.jpg" alt="Poster" class="poster img-responsive"> 
+                    </a>
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
                     <div class="about">
@@ -124,16 +154,19 @@
                     <div class="gallery owl-carousel owl-theme">
                         <div class="item">
                             <img src="./img/img4.jpg" alt="work">
-                            <span class="gallery__play"></span>
+                            <a href = "./img/img4.jpg" class="gallery__play" data-fancybox="images" fancybox-zoomInUp></a>
                         </div>
                         <div class="item">
                             <img src="./img/img4-2.jpg" alt="work">
+                            <a href = "./img/img4-2.jpg" class="gallery__play" data-fancybox="images"></a>
                         </div>
                         <div class="item">
                             <img src="./img/img4.jpg" alt="work">
+                            <a href = "./img/img4.jpg" class="gallery__play" data-fancybox="images"></a>
                         </div>
                         <div class="item">
                             <img src="./img/img4.jpg" alt="work">
+                            <a href = "./img/img4.jpg" class="gallery__play" data-fancybox="images"></a>
                         </div>
                     </div>
                 </div>
@@ -205,72 +238,66 @@
             <div class="row">
                 <div class="col works-container">
                     <div class="works-wrap d-flex justify-content-between tabs__content active">
-                        <a href="#!" class="work">
+                        <a href="./img/work1.jpg" class="work" data-fancybox="gallery1">
                             <img src="./img/work1.jpg">
                         </a>
-                        <a href="#!" class="work">
+                        <a href="./img/work2.jpg" class="work" data-fancybox="gallery1">
                             <img src="./img/work2.jpg">
                         </a>
-                        <a href="#!" class="work">
+                        <a href="./img/work3.jpg" class="work" data-fancybox="gallery1">
                             <img src="./img/work3.jpg">
                         </a>
-                        <a href="#!" class="work">
+                        <a href="./img/work4.jpg" class="work" data-fancybox="gallery1">
                             <img src="./img/work4.jpg">
                         </a>
-                        <a href="#!" class="work">
+                        <a href="./img/work5.jpg" class="work" data-fancybox="gallery1">
                             <img src="./img/work5.jpg">
                         </a>
-                        <a href="#!" class="work">
+                        <a href="./img/work6.jpg" class="work" data-fancybox="gallery1">
                             <img src="./img/work6.jpg">
                         </a>
                     </div>
                     <div class="works-wrap d-flex justify-content-between tabs__content">
-                        <a href="#!" class="work">
+                        <a href="./img/work2.jpg" class="work" data-fancybox="gallery2">
                             <img src="./img/work2.jpg">
                         </a>
-                        <a href="#!" class="work">
+                        <a href="./img/work1.jpg" class="work" data-fancybox="gallery2">
                             <img src="./img/work1.jpg">
                         </a>
-                        <a href="#!" class="work">
+                        <a href="./img/work4.jpg" class="work" data-fancybox="gallery2"> 
                             <img src="./img/work4.jpg">
                         </a>
-                        <a href="#!" class="work">
+                        <a href="./img/work3.jpg" class="work" data-fancybox="gallery2">
                             <img src="./img/work3.jpg">
                         </a>
-                        <a href="#!" class="work">
+                    </div>
+                    <div class="works-wrap d-flex justify-content-between tabs__content">
+                        <a href="./img/work2.jpg" class="work" data-fancybox="gallery3">
+                            <img src="./img/work2.jpg">
+                        </a>
+                        <a href="./img/work1.jpg" class="work" data-fancybox="gallery3">
+                            <img src="./img/work1.jpg">
+                        </a>
+                        <a href="./img/work4.jpg" class="work" data-fancybox="gallery3">
+                            <img src="./img/work4.jpg">
+                        </a>
+                        <a href="./img/work3.jpg" class="work" data-fancybox="gallery3">
+                            <img src="./img/work3.jpg">
+                        </a>
+                    </div>
+                    <div class="works-wrap d-flex justify-content-between tabs__content">
+                        <a href="./img/work3.jpg" class="work" data-fancybox="gallery4">
+                            <img src="./img/work3.jpg">
+                        </a>
+                        <a href="./img/work5.jpg" class="work" data-fancybox="gallery4">
                             <img src="./img/work5.jpg">
                         </a>
-                        <a href="#!" class="work">
+                        <a href="./img/work6.jpg" class="work" data-fancybox="gallery4">
                             <img src="./img/work6.jpg">
                         </a>
                     </div>
                     <div class="works-wrap d-flex justify-content-between tabs__content">
-                        <a href="#!" class="work">
-                            <img src="./img/work2.jpg">
-                        </a>
-                        <a href="#!" class="work">
-                            <img src="./img/work1.jpg">
-                        </a>
-                        <a href="#!" class="work">
-                            <img src="./img/work4.jpg">
-                        </a>
-                        <a href="#!" class="work">
-                            <img src="./img/work3.jpg">
-                        </a>
-                    </div>
-                    <div class="works-wrap d-flex justify-content-between tabs__content">
-                        <a href="#!" class="work">
-                            <img src="./img/work3.jpg">
-                        </a>
-                        <a href="#!" class="work">
-                            <img src="./img/work5.jpg">
-                        </a>
-                        <a href="#!" class="work">
-                            <img src="./img/work6.jpg">
-                        </a>
-                    </div>
-                    <div class="works-wrap d-flex justify-content-between tabs__content">
-                        <a href="#!" class="work">
+                        <a href="./img/work5.jpg" class="work" data-fancybox="gallery5">
                             <img src="./img/work5.jpg">
                         </a>
                     </div>
