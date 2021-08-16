@@ -13,6 +13,7 @@ $(function () {
                 items: 1,
                 navText:false,
                 dots: true,
+                nav:false,
                 autoWidth: false,
                 autoHeight: true,
             },
