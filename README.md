@@ -1,2 +1,2 @@
 # gravity
-https://veronnah.github.io/gravity/
+https://veronnah.github.io/gravity-layout/
